@@ -14,6 +14,12 @@ month, and day, and completely ignores time zones and partial days or
 whatever else. If you're handling days as discrete units, then this
 approach will probably work.
 
+## Leiningen
+
+``` clojure
+[com.gfredericks/clj-date "0.1.0"]
+```
+
 ## Usage
 
 ``` clojure
