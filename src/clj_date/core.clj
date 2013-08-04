@@ -147,3 +147,6 @@
                       (month ld)
                       (day ld))))
 
+(defmethod print-dup LocalDate
+  [d pw]
+  (print-method d pw))
