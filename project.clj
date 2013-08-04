@@ -1,4 +1,4 @@
-(defproject com.gfredericks/clj-date "0.1.0"
+(defproject com.gfredericks/clj-date "0.1.1"
   :description "A Clojure library for timeless dates."
   :url "https://github.com/fredericksgary/clj-date"
   :license {:name "Eclipse Public License"

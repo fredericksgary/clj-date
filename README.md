@@ -17,7 +17,7 @@ approach will probably work.
 ## Leiningen
 
 ``` clojure
-[com.gfredericks/clj-date "0.1.0"]
+[com.gfredericks/clj-date "0.1.1"]
 ```
 
 ## Usage
