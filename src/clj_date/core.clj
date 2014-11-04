@@ -52,6 +52,13 @@
            (vector? x)
            (apply date x)
 
+           (string? x)
+           (if-let [[_ y m d] (re-matches #"(\d{4})-(\d\d)-(\d\d)" x)]
+             (date (Long/parseLong y)
+                   (Long/parseLong m)
+                   (Long/parseLong d))
+             (throw (ex-info "Bad date format!" {:arg x})))
+
            :else
            (throw (ex-info "Don't know how to make date from argument." {:arg x}))))
   ([y m d]
