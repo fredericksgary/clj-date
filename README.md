@@ -1,3 +1,8 @@
+# Regrets
+
+This library exists because I didn't know about 
+`{org.joda.time,java.time}.LocalDate`. Just use that.
+
 # clj-date
 
 Time is complicated. Sometimes you just want dates.
